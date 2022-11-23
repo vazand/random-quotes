@@ -12,7 +12,7 @@ trait QuotesCollection {
   val quote_1 =
     "Every journey begins with a single step. We just have to have patience."
   val mighty_guy =
-    "t’s not always possible to do what we want to do, but it’s important to believe in something before you actually do it"
+    "It’s not always possible to do what we want to do, but it’s important to believe in something before you actually do it"
   
   val gilgamesh_fate_zero = "Do exactly as you like. That is the true meaning of pleasure. Pleasure leads to joy and joy leads to happiness."
   
