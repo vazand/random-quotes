@@ -1,4 +1,4 @@
-package com.vazand.quotes
+package io.github.vazand.quotes
 trait QuotesCollection {
   val luffy_quote_1 = "If I give up now, I'm going to regret it"
   val luffy_quote_2 = "If you don’t take risks, you can’t create a future."
