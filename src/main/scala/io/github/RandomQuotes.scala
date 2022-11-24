@@ -8,6 +8,11 @@ object RandomQuotes extends App with QuotesCollection{
     val random_str = rand.nextInt(list.length)
     return list(random_str)
   }
-  println(randomQuote(list_of_quotes))
+  
+  def sayHello(str:String):String = {
+    return "Hello "+str
+  }
+  
+  //println(randomQuote(list_of_quotes))
   
 }
