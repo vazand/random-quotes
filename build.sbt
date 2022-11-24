@@ -1,7 +1,7 @@
 ThisBuild / organization := "io.github.vazand"
 ThisBuild / organizationName := "vazand"
 ThisBuild / organizationHomepage := Some(url("https://vazand.github.io"))
-ThisBuild / version := "0.1.0-SNOPSHOT"
+ThisBuild / version := "0.1.0"
 ThisBuild / name := "random-quotes"
 ThisBuild / scalaVersion := "2.13.8"
 
