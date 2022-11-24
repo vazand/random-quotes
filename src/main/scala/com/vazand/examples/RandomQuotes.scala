@@ -1,4 +1,4 @@
-package com.cyberxpert
+package com.vazand.examples
 object RandomQuotes extends App with QuotesCollection{
   println("Today's Quote")
 
