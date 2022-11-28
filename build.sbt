@@ -42,3 +42,9 @@ ThisBuild / publishMavenStyle := true
 ThisBuild / versionScheme := Some("early-semver")
 
 // See https://www.scala-sbt.org/1.x/docs/Using-Sonatype.html for instructions on how to publish to Sonatype.
+
+
+// for assembly (fat jar to run )
+val mainClassPath = "io.github.vazand.quotes.RandomQuotes"
+assembly / assemblyJarName := "sample-random-quotes-v2.jar"
+assembly / mainClass := Some(mainClassPath)
