@@ -1,5 +1,10 @@
 package io.github.vazand.quotes
-trait QuotesCollection {
+
+/** <h5>Quotes collection</h5>
+  *
+  * use quote_boxed for boxed string output or quote to get quote as string
+  */
+class QuotesCollection {
 
   val luffy_quote_1 = "If I give up now, I'm going to regret it"
   val luffy_quote_2 = "If you don’t take risks, you can’t create a future."
@@ -71,7 +76,7 @@ trait QuotesCollection {
     return "\n" + box_up_down + "\n" + box_center + "\n" + box_up_down + "\n"
 
   }
+
   val quote_boxed = (boxed_quote(quote))
-  println(quote_boxed)
 
 }
